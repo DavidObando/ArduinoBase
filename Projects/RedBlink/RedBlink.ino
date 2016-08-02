@@ -23,6 +23,7 @@ void loop() {
   tone(BUZZER2, 1104, 100); // buzzer2 gets a 1104 Hertz signal for 100 milliseconds
   delay(100); // wait 100 milliseconds
   digitalWrite(LED_RED, LOW); // decrease voltage on red led (turns it off)
+  delay(900); // wait 900 milliseconds
 }
 
 
